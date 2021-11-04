@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:cornflowerblue;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/19/Altair_8800.jpg);
+    text-align: center;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    
+}
+
+
+nav{
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+    width: 100vw;
+    z-index: 10;
+    
+}
+
+nav.stuck{
+    position: fixed;
+    top: 0%;
+    overflow: hidden;
+}
+
+div {
+    display: block;
+}
+
+nav div {
+    padding: 10px 0;
+    flex-grow: 1;
+    text-align: center;
+    background-color:beige;
+    cursor: pointer;
+    transition: background-color 0.6s ease-out;
+    
+}
+
+nav div a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    text-decoration: none;
+}
+
+nav div:hover, nav div.selected {
+    background-color: white;
+   
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+section.black {
+    padding: 18px 54px;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    padding-bottom: 80px;
+    background-color: white;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+section.red {
+    padding: 18px 54px;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    padding-bottom: 80px;
+    background-color: white;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+section.white {
+    padding: 18px 54px;
+    font-size: 1em;
+    line-height: 1.8em;
+    padding-bottom: 80px;
+    background-color: white;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+img{
+    width: 100%;
+}
+
+h3 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 0;
+    color:black;
+}
+
+p {
+    margin-bottom: 70px;
+}
+
+
+section {
+    margin: 20px;
+}
+
+figcaption {
+    font-style: italic;
+    opacity: 0.8;
+    font-size: 0.8em;
+    line-height: 1.2em;
+}
+section.white {
+    padding: 18px 54px;
+    font-size: 1em;
+    line-height: 1.8em;
+    padding-bottom: 60px;
+    background-color: white;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+section.red{
+    padding: 18px 54px;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    padding-bottom: 80px;
+    background-color: white;
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+
+ul li a{
+    color: black;
+}
